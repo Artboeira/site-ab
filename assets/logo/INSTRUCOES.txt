@@ -1,0 +1,7 @@
+Coloque aqui os arquivos de logo do Estúdio AB:
+
+  logo.svg        → logo para fundo escuro (será filtrado para branco no nav)
+  logo-light.svg  → logo versão clara (cream/branco) para o hero
+
+Se você tiver apenas um arquivo SVG, pode renomear e duplicar.
+A página já aplica filtro CSS para adaptar as cores automaticamente.

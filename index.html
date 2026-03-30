@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Estúdio AB — Laboratório de arte, design, mídias híbridas e tecnologia. Experiências imersivas em São Paulo.">
+  <title>Estúdio AB — Arte, Design e Tecnologia</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,700;1,14..32,300&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER / NAV
+       ============================================================ -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#hero" class="nav-logo">
+        <img
+          src="assets/logo/logo.svg"
+          alt="Estúdio AB"
+          class="logo-img"
+          onerror="this.onerror=null;this.style.display='none';this.nextElementSibling.style.display='block'">
+        <span class="logo-text-fallback">ESTÚDIO AB</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ============================================================
+       HERO
+       ============================================================ -->
+  <section id="hero" class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-layer hero-l1"></div>
+      <div class="hero-layer hero-l2"></div>
+      <div class="hero-layer hero-l3"></div>
+      <div class="hero-layer hero-l4"></div>
+    </div>
+
+    <div class="hero-content container">
+      <div class="hero-logo-wrap">
+        <img
+          src="assets/logo/logo-light.svg"
+          alt="Estúdio AB"
+          class="logo-hero-img"
+          onerror="this.onerror=null;this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="logo-hero-text">
+          <span class="lht-studio">ESTÚDIO</span>
+          <span class="lht-ab">AB</span>
+        </div>
+      </div>
+
+      <p class="hero-tagline">
+        Laboratório de arte, design,<br>
+        mídias híbridas e tecnologia.
+      </p>
+
+      <a href="#servicos" class="btn-outline">Conheça nosso trabalho</a>
+    </div>
+
+    <div class="scroll-indicator" aria-hidden="true">
+      <span class="scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SOBRE
+       ============================================================ -->
+  <section id="sobre" class="sobre">
+    <div class="container">
+
+      <!-- 01 — Quem Somos -->
+      <article class="sobre-bloco fade-in">
+        <span class="label-mono">01 — São Paulo, 2025</span>
+        <h2 class="heading-xl">QUEM<br>SOMOS</h2>
+        <div class="sobre-text-col">
+          <p>
+            O <strong>Estúdio AB</strong> nasce da convergência entre anos de expertise no
+            mercado publicitário e cultural e uma visão pioneira sobre o futuro das
+            experiências imersivas. Fundado em 2025 e sediado em Pinheiros, São Paulo,
+            somos um estúdio criativo especializado em transformar espaços através da
+            fusão inteligente entre arte e tecnologia.
+          </p>
+          <p>
+            Nossa abordagem vai muito além do senso comum de "inovação". Enxergamos cada
+            projeto como uma oportunidade de design única, onde arquitetura, arte,
+            engenharia e computação se encontram para criar experiências que não apenas
+            atendem expectativas, mas as transcendem com elementos mágicos e tecnológicos
+            genuinamente transformadores.
+          </p>
+        </div>
+      </article>
+
+      <div class="sobre-sep" aria-hidden="true"></div>
+
+      <!-- 02 — Nossa Filosofia -->
+      <article class="sobre-bloco fade-in">
+        <span class="label-mono">02 — Filosofia</span>
+        <h2 class="heading-xl">NOSSA<br>FILOSOFIA</h2>
+        <div class="sobre-text-col">
+          <p>
+            Acreditamos que cada trabalho é um projeto de design em sua essência. O design
+            não é apenas uma camada estética, mas o DNA que conecta briefing criativo,
+            solução técnica e experiência final.
+          </p>
+          <p>
+            Nossa metodologia integra compreensão profunda das necessidades do cliente com
+            experimentação técnica e visão artística, sempre buscando criar algo dentro da
+            expectativa, mas que traga elementos genuinamente novos e transformadores.
+          </p>
+          <div class="ref-card">
+            <span class="ref-eyebrow">Projeto de Referência</span>
+            <p class="ref-body">
+              Sala interativa e imersiva para o <strong>Museu Olímpico do Rio</strong> —
+              sistema único de partículas controlado por seis sensores que capturam todo o
+              ambiente em tempo real, permitindo que os visitantes interajam e se sintam
+              imersos no mundo mágico das Olimpíadas.
+            </p>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVIÇOS
+       ============================================================ -->
+  <section id="servicos" class="servicos">
+    <div class="container">
+
+      <header class="section-header fade-in">
+        <span class="label-mono label-dark">O que fazemos</span>
+        <h2 class="heading-xl heading-dark">SERVIÇOS</h2>
+      </header>
+
+      <div class="servicos-grid">
+
+        <article class="servico-card fade-in" data-accent="orange">
+          <div class="servico-icon" aria-hidden="true">
+            <!-- Projection room icon -->
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="10" width="36" height="26" rx="1" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="24" cy="23" r="5" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="24" y1="10" x2="24" y2="18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="24" y1="28" x2="24" y2="36" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="6" y1="23" x2="14" y2="23" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="34" y1="23" x2="42" y2="23" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Salas Imersivas e Instalações Interativas</h3>
+          <p>Ambientes onde projeção de teto, parede e chão se integram com sistemas de sensoriamento avançado, criando mundos virtuais tridimensionais que respondem ao movimento e presença dos visitantes.</p>
+        </article>
+
+        <article class="servico-card fade-in" data-accent="blue">
+          <div class="servico-icon" aria-hidden="true">
+            <!-- Architectural projection icon -->
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="14" y="18" width="20" height="22" stroke="currentColor" stroke-width="1.5"/>
+              <rect x="18" y="28" width="5" height="12" stroke="currentColor" stroke-width="1.5"/>
+              <rect x="25" y="24" width="5" height="16" stroke="currentColor" stroke-width="1.5"/>
+              <polygon points="8,18 24,8 40,18" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linejoin="round"/>
+              <line x1="4" y1="40" x2="44" y2="40" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Video Mapping e Projeção Arquitetural</h3>
+          <p>Transformamos superfícies e estruturas em narrativas visuais dinâmicas, criando diálogos únicos entre arquitetura e conteúdo digital.</p>
+        </article>
+
+        <article class="servico-card fade-in" data-accent="olive">
+          <div class="servico-icon" aria-hidden="true">
+            <!-- IoT nodes icon -->
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="4" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="8"  cy="12" r="3" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="40" cy="12" r="3" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="8"  cy="36" r="3" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="40" cy="36" r="3" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="11" y1="13.5" x2="20.5" y2="21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="37" y1="13.5" x2="27.5" y2="21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="11" y1="34.5" x2="20.5" y2="27" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="37" y1="34.5" x2="27.5" y2="27" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Automação Robótica e IoT</h3>
+          <p>Sistemas inteligentes que permitem interações sofisticadas e experiências personalizadas, especialmente desenvolvidos para museus e espaços culturais.</p>
+        </article>
+
+        <article class="servico-card fade-in" data-accent="maroon">
+          <div class="servico-icon" aria-hidden="true">
+            <!-- Hybrid/bridge icon -->
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4"  y="4"  width="16" height="16" rx="1" stroke="currentColor" stroke-width="1.5"/>
+              <rect x="28" y="28" width="16" height="16" rx="1" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="20" y1="12" x2="36" y2="12" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
+              <line x1="36" y1="12" x2="36" y2="28" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
+              <line x1="12" y1="20" x2="12" y2="36" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
+              <line x1="12" y1="36" x2="28" y2="36" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
+            </svg>
+          </div>
+          <h3>Tecnologias Híbridas e Expandidas</h3>
+          <p>Exploramos as fronteiras entre físico e digital, criando pontes entre diferentes mídias e linguagens para experiências verdadeiramente originais.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTATO
+       ============================================================ -->
+  <section id="contato" class="contato">
+    <div class="container">
+
+      <header class="section-header fade-in">
+        <span class="label-mono">Fale com a gente</span>
+        <h2 class="heading-xl">CONTATO</h2>
+      </header>
+
+      <div class="contato-grid fade-in">
+
+        <div class="contato-pessoa">
+          <p class="cp-nome">ARTHUR BOEIRA</p>
+          <p class="cp-cargo">CEO / Tech Lead</p>
+          <a href="mailto:arthur@estudioab.io" class="cp-link">arthur@estudioab.io</a>
+          <a href="tel:+5511945105742" class="cp-link">+55 (11) 94510-5742</a>
+        </div>
+
+        <div class="contato-social">
+          <a href="https://instagram.com/estudioab__" target="_blank" rel="noopener noreferrer" class="social-item">
+            <span class="si-label">Instagram</span>
+            <span class="si-value">@estudioab__</span>
+          </a>
+          <a href="https://estudioab.io" target="_blank" rel="noopener noreferrer" class="social-item">
+            <span class="si-label">Website</span>
+            <span class="si-value">ESTUDIOAB.IO</span>
+          </a>
+          <div class="social-item">
+            <span class="si-label">Localização</span>
+            <span class="si-value">Pinheiros, São Paulo</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2025 Estúdio AB. Todos os direitos reservados.</span>
+      <span>CNPJ: 59.972.391/0001-59</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
